@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "alemdemim030",
+    "database": "floraxpressDB",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "9uKtfXZ6Cf5rh3b",
+    "database": "my_db",
+    "host": "database-1.c69flmrpvsoh.eu-west-3.rds.amazonaws.com",
+    "port":"3306",
+    "dialect": "mysql"
+  }
+}
