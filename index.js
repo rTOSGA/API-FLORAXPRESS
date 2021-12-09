@@ -17,7 +17,7 @@ app.use("/", userRouter);
 
 
 db.sequelize.sync().then(() => {
-    app.listen(80, () => {
-        console.log("Server running on port 80");
+    app.listen(3000, () => {
+        console.log("Server running on port 3000");
     });
 });
